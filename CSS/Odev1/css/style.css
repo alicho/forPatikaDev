@@ -1,0 +1,22 @@
+/* .h1,h2,h3,a,div,p,ul {
+    text-align: center;
+} */
+body{
+    text-align: center;
+}
+
+.renkCrimson{
+    color: crimson;
+}
+.renkMor{
+    color:#6e00fd;
+}
+
+.renkSari{
+    color: rgb(143, 143, 22);
+}
+
+ul{
+    list-style-position: inside;
+}
+
