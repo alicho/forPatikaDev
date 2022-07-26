@@ -1,6 +1,10 @@
+input[type="text"]{
+    width: 300px;
+    margin: 0 auto;
+}
+
 #googlelogo {
     text-align: center;
-
 }
 #search-area {
     margin: auto;
@@ -8,12 +12,8 @@
     height: 80px;
     background-color: rgba(194, 194, 194, 0.171);
     text-align: center;
+}
 
-}
-input[type="text"]{
-    width: 300px;
-    margin: 0 auto;
-}
 #others{
     margin: 2px auto;
     width: 80%;
