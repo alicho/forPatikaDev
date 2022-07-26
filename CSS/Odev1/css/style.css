@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* .h1,h2,h3,a,div,p,ul {
     text-align: center;
 } */
@@ -27,3 +28,34 @@ b{
 li{
     font-weight: bold;
 }
+=======
+/* .h1,h2,h3,a,div,p,ul {
+    text-align: center;
+} */
+body{
+    text-align: center;
+}
+
+.renkCrimson{
+    color: crimson;
+}
+.renkMor{
+    color:#6e00fd;
+}
+
+.renkSari{
+    color: rgb(143, 143, 22);
+}
+
+div,ul,ol{
+    list-style-position: inside;
+}
+
+b{
+    font-size: 24px;
+}
+
+li{
+    font-weight: bold;
+}
+>>>>>>> 80b596099b6d9b9593b3f5f3e84429cd53d13c2e
