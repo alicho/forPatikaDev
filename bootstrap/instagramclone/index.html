@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Patika.dev | Bootstrap | Instagram Clone Ödev</title>
   </head>
-  <body style="padding: 60px;">
+  <body>
     <nav
       class="navbar navbar-expand-sm navbar-light border fixed-top bg-white" style="height: 54px;"
     >
@@ -36,7 +36,7 @@
               <span class="navbar-toggler-icon mr-5"></span>
             </button>
           </div>
-      <div class="collapse navbar-collapse d-flex ml-5" >
+      <div class="collapse navbar-collapse d-flex justify-content-center ml-5" >
         <form class="form-inline my-2 my-lg-0 ml-5 d-none d-sm-block">
           <input
             class="form-control mr-sm-2 empty"
@@ -47,30 +47,53 @@
           />
         </form>
       </div>
-      <div class="collapse navbar-collapse ml-5 mt-2">
+      <div class="collapse navbar-collapse ml-5 mt-2 .d-sm-none .d-md-block">
         <ul class="navbar-nav">
-          <li class="nav-item active"><a class="nav-link" href="#"><i class="fas fa-home fa-lg mr-2 d-none d-md-block mt-1"></i><span class="sr-only">(current)</span></a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="fab fa-facebook-messenger fa-lg mr-2 mt-1" style="color: black"></i></a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="far fa-compass fa-lg mr-2 mt-1" style="color: black"></i></a></li>
-          <li class="nav-item"><a class="nav-link" href="#"><i class="far fa-heart fa-lg mr-2 mt-1" style="color: black"></i></a></li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              ><i class="fas fa-home fa-lg mr-2 d-none d-sm-block mt-1"></i>
+              <span class="sr-only">(current)</span></a
+            >
+          </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/nagocila" target="_blank">
-            <img src="https://picsum.photos/id/666/200/300" 
-              class="mb-2" style="width: 23px; height: 23px; border-radius: 50%;"/></a>
+            <a class="nav-link" href="#"
+              ><i
+                class="fab fa-facebook-messenger fa-lg mr-2 mt-1"
+                style="color: black"
+              ></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="far fa-compass fa-lg mr-2 mt-1" style="color: black"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="far fa-heart fa-lg mr-2 mt-1" style="color: black"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/nagocila" target="_blank"
+              ><img
+                src="https://picsum.photos/id/639/200/300"
+                class="mb-2"
+                style="width: 23px; height: 23px; border-radius: 50%;"
+            /></a>
           </li>
         </ul>
       </div>
     </nav>
 
-    <div class="container middlearea">
+    <div class="container middlearea offset-2 mt-5">
       <div class="row">
-        <div class="col-6 offset-1">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
 
           <div class="card">
-            <div class="card-body">
+            <div class="card-body d-flex text-center">
               <a href="https://www.instagram.com/kodluyoruz" style="text-decoration: none;" target="_blank">
               <img
-                src="https://picsum.photos/id/555/200/300"
+                src="assets/kodluyoruz.jpg"
                 class="storyphoto img-fluid mr-3"
               />
               <span class="storytext">kodluyoruz</span>
@@ -126,9 +149,9 @@
                 class="mr-2"
                 style="width: 35px; height: 35px; border-radius: 50%"
               />
-              <span class="postuserfont"><strong><a href="https://www.instagram.com/cengizcmataraci" target="_blank" style="color: black;">cengizcmataraci</a></strong></span>
+              <span class="postuserfont"><strong><a href="https://www.instagram.com/nagocila" target="_blank" style="color: black;">nagocila</a></strong></span>
               <span class="mt-2"
-                ><strong><i class="fas fa-ellipsis-h"></i></strong
+                ><strong><i class="fas fa-ellipsis-h float-right"></i></strong
               ></span>
             </div>
             <img
@@ -174,7 +197,7 @@
                   ></i
                 ></a>
               </li>
-              <span class="">
+              <span class="offset-7">
                 <li class="nav-item ml-4">
                   <a class="nav-link ml-2" href="#"
                     ><i
@@ -199,7 +222,7 @@
             <div class="card-body" style="margin-top: -15px">
               <p class="card-text postuserfont">
                 <strong style="margin-left: -4px; margin-right: 5px"
-                  >cengizcmataraci</strong
+                  >nagocila</strong
                 >Burası Rize! Harika bir cennet!
               </p>
               <a href="#" style="text-decoration: none"
@@ -307,7 +330,7 @@
                   ></i
                 ></a>
               </li>
-              <span class="">
+              <span class="offset-7">
                 <li class="nav-item ml-4">
                   <a class="nav-link ml-2" href="#"
                     ><i
@@ -325,7 +348,7 @@
                 style="width: 23px; height: 23px; border-radius: 50%"
               />
               <span class="postuserfont"
-                ><strong>cengizcmataraci</strong> ve
+                ><strong>nagocila</strong> ve
                 <strong>670 diğer kişi</strong> beğendi</span
               >
             </span>
@@ -349,7 +372,7 @@
               >
               <p class="card-text postuserfont">
                 <strong style="margin-left: -4px; margin-right: 5px"
-                  >cengizcmataraci</strong
+                  >nagocila</strong
                 >Harika! Kesinlikle katılacağım! :)
               </p>
               <p class="card-text postuserfont" style="margin-top: -15px">
@@ -440,7 +463,7 @@
                   ></i
                 ></a>
               </li>
-              <span class="">
+              <span class="offset-7">
                 <li class="nav-item ml-4">
                   <a class="nav-link ml-2" href="#"
                     ><i
@@ -458,7 +481,7 @@
                 style="width: 23px; height: 23px; border-radius: 50%"
               />
               <span class="postuserfont"
-                ><strong>cengizcmataraci</strong> ve
+                ><strong>nagocila</strong> ve
                 <strong>900.182 diğer kişi</strong> beğendi</span
               >
             </span>
@@ -482,7 +505,7 @@
               >
               <p class="card-text postuserfont">
                 <strong style="margin-left: -4px; margin-right: 5px"
-                  >cengizcmataraci</strong
+                  >nagocila</strong
                 >Yeah! Here you go!
               </p>
               <p class="card-text postuserfont" style="margin-top: -15px">
@@ -531,17 +554,17 @@
                   >
                   <span>
                   <img
-                    src="https://picsum.photos/id/666/200/300"
+                    src="https://picsum.photos/id/639/200/300"
                     class=""
                     style="
                       width: 60px;
                       height: 60px;
                       border-radius: 50%;
                       border: 2px solid rgb(238, 39, 82);
-                      margin-left: -15px;
+                      margin-left: -18px;
                     "
                   /><span
-                    class=""
+                    class="offset-2"
                     style="
                       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
                         Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
@@ -566,7 +589,7 @@
                     >Senin İçin Öneriler</span
                   >
                   <span
-                    class="postuserfont mt-1"
+                    class="postuserfont float-right mt-1"
                     style="font-size: 12px"
                     ><strong>Tümünü Gör</strong></span
                   >
@@ -575,7 +598,7 @@
                   <div>
                     <span
                       ><img
-                        src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/136764073_2862337494054607_1355990075667286005_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=3MHMOXdKP6cAX-WCyqg&tp=1&oh=ac33152da872b66e414b29d07b6c35ff&oe=602ED931"
+                        src="https://picsum.photos/50"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -584,7 +607,7 @@
                       ><strong>kablosuzbeyin</strong></span
                     >
                     <span
-                      class="postuserfont"
+                      class="postuserfont float-right"
                       style="font-size: 13px; color: #0095f6; margin-top: 5px"
                       ><strong>Takip Et</strong></span
                     >
@@ -593,7 +616,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/135278730_818218959037021_4706682874061565439_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=ZcMoHQ8jKZgAX88HPLQ&tp=1&oh=2023068e1dfea5cccffd10bffecca9c4&oe=602F5808"
+                        src="https://picsum.photos/51"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -602,7 +625,7 @@
                       ><strong>codecraftcom </strong></span
                     >
                     <span
-                      class="postuserfont"
+                      class="postuserfont float-right"
                       style="font-size: 13px; color: #0095f6; margin-top: 5px"
                       ><strong>Takip Et</strong></span
                     >
@@ -611,7 +634,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/31495253_240585426490915_5836624022825074688_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=cPDm1HkyR00AX853Kwb&tp=1&oh=c8165bf46f38be25d28883123c419772&oe=602D147C"
+                        src="https://picsum.photos/52"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -620,7 +643,7 @@
                       ><strong>navlungotr</strong></span
                     >
                     <span
-                      class="postuserfont"
+                      class="postuserfont float-right"
                       style="font-size: 13px; color: #0095f6; margin-top: 5px"
                       ><strong>Takip Et</strong></span
                     >
@@ -629,7 +652,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/94766381_265471701511060_6041416400029876224_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=mQMQvy2AF8QAX887wrH&tp=1&oh=4670ba101eddc6e0f54b15f53b432ff5&oe=602F5C23"
+                        src="https://picsum.photos/53"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -638,7 +661,7 @@
                       ><strong>podfreshco</strong></span
                     >
                     <span
-                      class="postuserfont"
+                      class="postuserfont float-right"
                       style="font-size: 13px; color: #0095f6; margin-top: 5px"
                       ><strong>Takip Et</strong></span
                     >
@@ -646,7 +669,7 @@
                   <div class="mt-3">
                     <span
                       ><img
-                        src="https://scontent-otp1-1.cdninstagram.com/v/t51.2885-19/s150x150/121780232_471629500408445_1284251206825421967_n.jpg?_nc_ht=scontent-otp1-1.cdninstagram.com&_nc_ohc=pF5Lhq2mP3gAX_M_HUg&tp=1&oh=84447ff663f0e15901cf8b446bb9fa18&oe=602DD5CA"
+                        src="https://picsum.photos/54"
                         style="width: 30px; height: 30px; border-radius: 50%"
                       />
                     </span>
@@ -655,7 +678,7 @@
                       ><strong>Kodluyoruz Junior</strong></span
                     >
                     <span
-                      class="postuserfont"
+                      class="postuserfont float-right"
                       style="font-size: 13px; color: #0095f6; margin-top: 5px"
                       ><strong>Takip Et</strong></span
                     >
